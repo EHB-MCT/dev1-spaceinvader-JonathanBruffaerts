@@ -10,14 +10,14 @@ let context = canvas.getContext('2d')
 drawrectangle();
 
 function drawrectangle() {
-//Achtergrond tkenen
+//Achtergrond tekenen
     context.beginPath();
     context.fillStyle= "black";
     context.rect(0,0,300,300)
     context.fill();
     context.stroke();
 
-    //Grote blok linksboven
+//Grote blok linksboven
     context.beginPath();
     context.fillStyle= "#66FF00";
     context.strokeStyle= "#66FF00";
@@ -25,35 +25,35 @@ function drawrectangle() {
     context.fill();
     context.stroke();
 
-    //Klein blokje van boven in het midden
+//Klein blokje van boven in het midden
     context.beginPath();
     context.fillStyle= "#66FF00";
     context.rect(125,25,50,50);
     context.fill();
     context.stroke();
 
-    //grote blok rechtsboven
+//grote blok rechtsboven
     context.beginPath();
     context.fillStyle= "#66FF00";
     context.rect(175,25,100,100);
     context.fill();
     context.stroke();
 
-    //Grote rechthoek in het midden
+//Grote rechthoek in het midden
     context.beginPath();
     context.fillStyle= "#66FF00";
     context.rect(75,125,150,100);
     context.fill();
     context.stroke();
 
-    //Linksbeneden
+//Linksbeneden
     context.beginPath();
     context.fillStyle= "#66FF00";
     context.rect(75,225,50,50);
     context.fill();
     context.stroke();
 
-    //rechtsbeneden
+//rechtsbeneden
     context.beginPath();
     context.fillStyle= "#66FF00";
     context.rect(175,225,50,50);
